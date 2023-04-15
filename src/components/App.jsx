@@ -11,6 +11,7 @@ export const App = () => {
   const [neutral, setNeutral] = useState(0);
   const [bad, setBad] = useState(0);
 
+  //додаємо функцію для збільшення значення відповідно до натиснутої кнопки
   const onLeaveFeedback = option => {
     switch (option) {
       case 'good':
